@@ -3,9 +3,10 @@ import { SelectedPage } from "@/shared/types";
 import ActionButton from "@/shared/ActionButton";
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponsorRedBull from "@/assets/SponsorRedBull.png";
+import SponsorVitaminShoppe from "@/assets/SponsorVitaminShoppe.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
+import SponsorCelsius from "@/assets/SponsorCelsius.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
@@ -43,9 +44,9 @@ function Home({ setSelectedPage }: Props) {
               </div>
             </div>
             <p className="mt-8 text-sm">
-              Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-              Studios to get the Body Shapes That you Dream of.. Get Your Dream
-              Body Now.
+              Transform Your Body, Energize Your Mind, and Embrace the Evolution
+              of Fitness at EvoGym – Your Destination for Health, Strength, and
+              Empowerment!
             </p>
           </div>
           {/* ACTIONS */}
@@ -79,12 +80,13 @@ function Home({ setSelectedPage }: Props) {
       </motion.div>
       {/* SPONSORS */}
       {isAboveMediumScreens && (
-        <div className="h-[150px] w-full bg-primary-100 py-10">
+        <div className="absolute bottom-0 h-[150px] w-full bg-gray-200 py-10">
           <div className="mx-auto w-5/6">
-            <div className="flex w-3/5 items-center justify-between gap-8">
-              <img alt="redbull-sponsor" src={SponsorRedBull} />
+            <div className="flex w-full items-center justify-between gap-8">
+              <img alt="redbull-sponsor" src={SponsorVitaminShoppe} />
               <img alt="forbes-sponsor" src={SponsorForbes} />
               <img alt="fortune-sponsor" src={SponsorFortune} />
+              <img alt="fortune-sponsor" src={SponsorCelsius} />
             </div>
           </div>
         </div>

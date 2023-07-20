@@ -9,7 +9,7 @@ type Props = {
 };
 
 const ContactUs = ({ setSelectedPage }: Props) => {
-  const inputStyles = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
+  const inputStyles = `mb-5 w-full rounded-lg bg-slate-200 px-5 py-3 placeholder-slate-400`;
 
   const {
     register,
@@ -45,9 +45,11 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+            Unlock your full potential and embark on a transformative fitness
+            journey with us. Our gym offers a welcoming community, top-notch
+            facilities, and expert guidance from certified trainers to help you
+            achieve your health and fitness goals. Take the first step towards a
+            healthier and happier lifestyle by joining today!
           </p>
         </motion.div>
         {/* FORM AND IMAGE */}
@@ -122,7 +124,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 
               <button
                 type="submit"
-                className="mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white"
+                className="mt-5 rounded-lg bg-slate-500 px-20 py-3 text-white transition duration-500 hover:bg-slate-600"
               >
                 SUBMIT
               </button>
@@ -141,7 +143,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           >
             <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
               <img
-                className="w-full"
+                className="w-full rounded-lg"
                 alt="contact-us-page-graphic"
                 src={ContactUsPageGraphic}
               />

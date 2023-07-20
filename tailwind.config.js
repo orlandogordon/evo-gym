@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -11,12 +8,26 @@ export default {
         "gray-50": "#EFE6E6",
         "gray-100": "#DFCCCC",
         "gray-500": "#5E0000",
-        "primary-100": "#FFE1E0",
-        "primary-300": "#FFA6A3",
-        "primary-500": "#FF6B66",
-        "secondary-400": "#FFCD5B",
-        "secondary-500": "#FFC132",
+        "primary-50": "#CFCFDD",
+        "primary-100": "#ABABC4",
+        "primary-200": "#8888AA",
+        "primary-300": "#5D5D83",
+        "primary-500": "#34344A",
+        "secondary-400": "#B6A4B4",
+        "secondary-500": "#9D859A",
+        "secondary-700": "#665264",
       },
+      // colors: {
+      //   "gray-20": "#F8F4EB",
+      //   "gray-50": "#EFE6E6",
+      //   "gray-100": "#DFCCCC",
+      //   "gray-500": "#5E0000",
+      //   "primary-100": "#FFE1E0",
+      //   "primary-300": "#FFA6A3",
+      //   "primary-500": "#FF6B66",
+      //   "secondary-400": "#FFCD5B",
+      //   "secondary-500": "#FFC132",
+      // },
       backgroundImage: (theme) => ({
         "gradient-yellowred":
           "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
@@ -41,4 +52,3 @@ export default {
   },
   plugins: [],
 };
-
