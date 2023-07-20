@@ -36,21 +36,29 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     page="Home"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
+                    setIsMenuToggled={setIsMenuToggled}
+                    isMenuToggled={isMenuToggled}
                   />
                   <Link
                     page="Benefits"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
+                    setIsMenuToggled={setIsMenuToggled}
+                    isMenuToggled={isMenuToggled}
                   />
                   <Link
                     page="Our Facilities"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
+                    setIsMenuToggled={setIsMenuToggled}
+                    isMenuToggled={isMenuToggled}
                   />
                   <Link
                     page="Contact Us"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
+                    setIsMenuToggled={setIsMenuToggled}
+                    isMenuToggled={isMenuToggled}
                   />
                 </div>
                 <div className={`${flexBetween} gap-8`}>
